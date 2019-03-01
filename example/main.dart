@@ -119,7 +119,7 @@ class _LottieDemoState extends State<LottieDemo>
                           if (_controller.isAnimating) {
                             if (_repeat) {
                               _controller.forward().then<Null>(
-                                  (Null nul) => _controller.repeat());
+                                  (nul) => _controller.repeat());
                             } else {
                               _controller.forward();
                             }
