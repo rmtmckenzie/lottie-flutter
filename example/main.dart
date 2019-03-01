@@ -17,7 +17,6 @@ const List<String> assetNames = const <String>[
   'assets/favourite_app_icon.json',
   'assets/preloader.json',
   'assets/walkthrough.json',
-  'assets/rrect.json',
 ];
 
 void main() {
